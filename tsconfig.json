@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "esModuleInterop": true,
+        "module": "commonjs",
+        "target": "es5",
+        "allowJs": false,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "~": [
+                "src/*"
+            ]
+        },
+        "declaration": true, 
+        "declarationDir": "./@types" //单独为头文件指定存放的位置
+    },
+    "include": [
+        "src/**/*.ts", "src/**/*.js"
+    ]
+}
