@@ -1,0 +1,15 @@
+{
+  "name": "spark-swiper",
+  "version": "1.0.3",
+  "description": "spark spark-swiper swiper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spark",
+    "swiper"
+  ],
+  "author": "spark",
+  "license": "ISC"
+}
