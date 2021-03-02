@@ -1,50 +1,60 @@
 {
-    "name": "library",
-    "version": "1.0.0",
-    "description": "",
-    "main": "dist/index.js",
-    "dependencies": {
-        "@babel/preset-react": "^7.0.0",
-        "@babel/runtime": "^7.4.5",
-        "spark-deep": "^1.0.3"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.4.5",
-        "@babel/plugin-proposal-class-properties": "^7.4.4",
-        "@babel/plugin-transform-runtime": "^7.4.4",
-        "@babel/preset-env": "^7.4.5",
-        "autoprefixer": "^9.5.1",
-        "babel-loader": "^8.0.6",
-        "clean-webpack-plugin": "^2.0.2",
-        "cross-var": "^1.1.0",
-        "css-loader": "^2.1.1",
-        "html-webpack-plugin": "^3.2.0",
-        "node-sass": "^4.12.0",
-        "optimize-css-assets-webpack-plugin": "^5.0.1",
-        "postcss-loader": "^3.0.0",
-        "postcss-px2rem": "^0.3.0",
-        "progress-bar-webpack-plugin": "^1.12.1",
-        "sass-loader": "^7.1.0",
-        "style-loader": "^0.23.1",
-        "ts-loader": "^6.0.2",
-        "typescript": "^3.5.1",
-        "uglifyjs-webpack-plugin": "^2.1.3",
-        "webpack": "^4.32.2",
-        "webpack-bundle-analyzer": "^3.3.2",
-        "webpack-cli": "^3.3.2",
-        "webpack-dashboard": "^3.0.7",
-        "webpack-dev-server": "^3.4.1",
-        "webpack-merge": "^4.2.1"
-    },
-    "scripts": {
-        "dev": "cross-var webpack-dev-server --mode development --config webpack.dev.js",
-        "build": "cross-var webpack --config  webpack.prod.js --mode production",
-        "report": "cross-var npm run build --report"
-    },
-    "keywords": [
-        "library",
-        "report"
-    ],
-    "author": "spark",
-    "license": "ISC"
+  "name": "spark-swiper",
+  "version": "1.0.0",
+  "description": "swiper spark spark-swiper",
+  "main": "dist/index.js",
+  "dependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.5",
+    "spark-deep": "^1.0.3",
+    "toc-helper": "^1.1.2",
+    "toc-table": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^2.0.2",
+    "cross-var": "^1.1.0",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-px2rem": "^0.3.0",
+    "progress-bar-webpack-plugin": "^1.12.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.2",
+    "typescript": "^3.5.1",
+    "uglifyjs-webpack-plugin": "^2.1.3",
+    "webpack": "^4.32.2",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.3.2",
+    "webpack-dashboard": "^3.0.7",
+    "webpack-dev-server": "^3.4.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "dev": "cross-var webpack-dev-server --mode development --config webpack.dev.js",
+    "build": "cross-var webpack --config  webpack.prod.js --mode production",
+    "report": "cross-var npm run build --report"
+  },
+  "keywords": [
+    "library",
+    "report"
+  ],
+  "author": "spark",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparksworld/library-umd.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sparksworld/library-umd/issues"
+  },
+  "homepage": "https://github.com/sparksworld/library-umd#readme"
 }

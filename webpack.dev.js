@@ -14,7 +14,7 @@ const options = {
         filename: 'index.js',
         publicPath: '/',
         path: path.resolve(__dirname, 'dist'),
-        library: "test",
+        library: "spark-swiper",
         libraryTarget: "umd",
         libraryExport : "default",
         umdNamedDefine: true

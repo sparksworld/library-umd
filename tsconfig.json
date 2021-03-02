@@ -10,6 +10,7 @@
         "experimentalDecorators": true,
         "baseUrl": "./",
         "paths": {
+            "*": ["types/*"],
             "~": [
                 "src/*"
             ]
